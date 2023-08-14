@@ -1,0 +1,85 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+.ib-bulk-email h1 {
+
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.ib-bulk-email {
+    max-width: 1024px;
+    border: 3px solid #cbdcf7;
+    padding: 50px;
+    margin: 30px auto;
+    background: #fff;
+    border-radius:5px;
+}
+
+.ib-bulk-email .notice.notice-success {
+    margin: 0px;
+}
+
+.ib-bulk-email input {
+    width: 100%;
+    height: 45px;
+    margin-bottom: 10px;
+}
+
+.ib-bulk-email input.button.button-primary[type=submit] {
+    width: 25%;
+    background: #84adea;
+    border: none;
+}
+
+.ib-bulk-email input.button.button-primary[type=submit]:hover {
+    background: #626e81;
+}
+
+
+
+.ib-bulk-email label {
+    font-weight: 700;
+}
+
+.ib-bulk-email input#sender_email {
+    padding: 12px;
+    margin-top: 6px;
+}
+
+.ib-bulk-email td.added-email-id {
+    border: 1px solid #cbdcf7;
+    width:100%;
+}
+.ib-bulk-email .widefat td {
+    vertical-align: middle;
+}
+.ib-bulk-email input.button.button-primary {
+    font-size: 17px;
+    font-weight: 600;
+}
+.sender-info {
+    display: flex;
+}
+.sender-name, .sender-mail {
+    width: 100%;
+}
+.sender-name {
+    margin-right: 20px;
+}
+
+.ib-bulk-email table.wp-list-table.widefat {
+    padding: 15px;
+}
+.ib-bulk-email input.button.button-secondary.delete-icon {
+    background-color: #d63638;
+    color: #fff;
+    font-weight: 600;
+    border:none;
+}
+
+.ib-bulk-email input[type=email]{
+    border: 1px solid #cccccc;
+}
